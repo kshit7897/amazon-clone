@@ -144,7 +144,7 @@ main{
     grid-template-areas:
     "product1 product2 product3 product4"
     "product1 product2 product3 product5"
-    "product6 product7 product8 product9"
+    "product6 product7 product9 product8 "
     "product10 product10 product10 product10"
     "product11 product11 product11 product11"
     ;
@@ -359,7 +359,7 @@ main{
 .popular{
     display: grid;
     grid-auto-flow: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .product11{
