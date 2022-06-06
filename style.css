@@ -22,8 +22,8 @@
     background-color: #0F1111;
 }
 .logo img{
-    height: 45px;
-    padding-left: 5px;
+    height: 40px;
+    padding-left: 10px;
 }
 .city{
     display: grid;
@@ -46,18 +46,19 @@
     font-weight: bold;
 }
 .signin>p{
-    margin-left: 5px;
+    margin-left: 10px;
 }
 .cart{
     display: grid;
     grid-auto-flow: column;
     align-items: end;
+    margin-left: 10px;
 }
 .fa-cart-shopping{
     font-size: 35px;
 }
 .cart>p{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
@@ -94,6 +95,7 @@
     font-weight: bold;
 }
 
+/* -----------------------nav list start from below-------------------- */
 .nav-list{
     height: 40px;
     display: grid;
@@ -101,14 +103,17 @@
     justify-content: space-between;
     align-items: center;
     background-color: rgb(28, 28, 134);
+    padding-left: 10px;
 }
 .navbar>a,.offer>a{
     margin:0 5px;
     text-decoration: none;
     font-weight: bold;
     color: white;
-
 }
+
+/* ----------------------banner start from below---------------- */
+
 .banner{
     display: grid;
     grid-auto-flow: column;
@@ -254,7 +259,7 @@ main{
 }
 .product5{
     grid-area:product5;
-    /* background-image: url(pic/Amazon_Shipping_Cutoffs_2019.jpg); */
+    background-image: ;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -367,10 +372,10 @@ main{
     grid-area:product11;
 }
 .Frequently>img{
-    height: 120px;
+    height: 130px;
 }
 .Frequently{
     display: grid;
     grid-auto-flow: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
